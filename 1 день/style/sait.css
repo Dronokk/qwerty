@@ -1,0 +1,39 @@
+html {
+	overflow-x: hidden;
+}
+body {
+	margin: 0px;
+}
+.hh {
+   font-family: Arial, Helvetica, sans-serif;                                                                        
+   color: black;
+   margin-top: 0;
+   border: none;
+   width: 100%;
+   font-size: calc((1.5vh + 1.5vw) / 2 + 40px);
+}
+.hh a{
+   color: black;
+   text-decoration: none;
+}
+.hh a:hover{
+    color: skyblue;
+    margin-top: 0;
+}
+.hh{
+  background-color: ghostwhite;
+  box-shadow: 4px 5px 2px 10px skyblue;
+}
+.foot{
+   background-color: skyblue;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 70px;
+}
+@media screen and (max-width: 500){
+  img{
+    width: 40%;
+  }
+}
